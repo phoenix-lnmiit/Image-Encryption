@@ -6,4 +6,5 @@ img = cv2.imread('E:/OpenCV/Images/maxresdefault.jpg')  #path and name of the im
 #px = img[x][y]
 
 cv2.imshow('ImageWindow', img)
-cv2.waitKey()
+cv2.waitKey(0)
+cv2.destroyAllWindows()
