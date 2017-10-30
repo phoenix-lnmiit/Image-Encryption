@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('E:/OpenCV/Images/inputImage.jpg',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('inputImage.jpg',cv2.IMREAD_GRAYSCALE)
 
 #Matrix to hold intensity values
 matrix = img[0:, 0:]
