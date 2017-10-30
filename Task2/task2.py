@@ -9,7 +9,7 @@ img[0:, 0:] = 2*matrix
 
 cv2.imshow('ImageWindow', img)
 
-cv2.imwrite('E:/OpenCV/Images/outputImage.jpg', img)
+cv2.imwrite('outputImage.jpg', img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
