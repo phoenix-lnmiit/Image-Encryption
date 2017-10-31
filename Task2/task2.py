@@ -4,7 +4,7 @@ img = cv2.imread('inputImage.jpg',cv2.IMREAD_GRAYSCALE)
 
 #Matrix to hold intensity values
 matrix = img[0:, 0:]
-print(2*matrix)
+print(matrix)
 img[0:, 0:] = 2*matrix
 
 cv2.imshow('ImageWindow', img)
